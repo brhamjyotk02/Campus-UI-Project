@@ -1,0 +1,23 @@
+.timetable-view-buttons{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}.timetable-view-buttons button{border:1px solid var(--border,#e5e7eb);background:#fff;padding:10px 16px;border-radius:9px;cursor:pointer;font:inherit}.timetable-view-buttons button.active{background:var(--primary,#635bdb);color:#fff;border-color:var(--primary,#635bdb)}.weekly-timetable-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.weekly-timetable-day{min-width:0}.weekly-timetable-day .timetable-card{margin-bottom:10px}.timetable-help{margin-top:16px}.timetable-help p{margin:8px 0}.timetable-help a{display:inline-block;margin-top:8px;color:var(--primary,#635bdb);font-weight:600;text-decoration:none}@media(max-width:800px){.weekly-timetable-grid{grid-template-columns:1fr}}
+/* Keep timetable controls readable even when other pages set global button colors. */
+.timetable-view-buttons button,
+.day-buttons button {
+  color: #374151;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  min-height: 50px;
+}
+.timetable-view-buttons button.active,
+.day-buttons button.active {
+  color: #fff;
+  background: #4f46e5;
+  border-color: #4f46e5;
+}
+.timetable-view-buttons button:focus-visible,
+.day-buttons button:focus-visible {
+  outline: 3px solid #c7d2fe;
+  outline-offset: 2px;
+}

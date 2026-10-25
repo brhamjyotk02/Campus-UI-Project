@@ -1,0 +1,12 @@
+{
+  "name": "Mannatbir Singh",
+  "department": "Computer Science and Engineering",
+  "semester": "5th Semester",
+  "baseXp": 1240,
+  "skills": ["React", "JavaScript", "Java", "Git", "Figma"],
+  "projects": [
+    { "name": "ATTEND", "description": "College attendance tracker web app" },
+    { "name": "Campus Life", "description": "Clubs, events and community module of the group project" }
+  ],
+  "certificates": ["Meta Front-End Developer (Coursera)", "Java Programming (HackerRank)"]
+}

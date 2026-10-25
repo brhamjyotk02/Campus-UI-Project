@@ -1,0 +1,62 @@
+/*
+  THEME: "Lakeside". A calm, off-campus feel: mist, sage and soft teal,
+  with warm peach touches. Rounded shapes, generous space, slow motion.
+  Light and dark share the same variable names, so components never
+  care which mode is active. ThemeContext sets <html data-theme="...">.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Quicksand:wght@600;700&display=swap");
+
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #eaf3f1;
+  --bg2: #f6f4ee;
+  --surface: #ffffff;
+  --surface-2: #f1f8f6;
+  --text: #1d3639;
+  --muted: #566f72;
+  --line: #d3e3e0;
+  --accent: #2a7a72;
+  --accent-ink: #ffffff;
+  --accent-soft: #d7eeea;
+  --accent-text: #1d6a63;
+  --shadow: 0 8px 28px rgba(29, 54, 57, 0.08);
+
+  --c-sky: #2f6da3;   --c-sky-bg: #dcebf8;
+  --c-lav: #6a5fc0;   --c-lav-bg: #e8e5fa;
+  --c-rose: #b4547a;  --c-rose-bg: #fae3ec;
+  --c-peach: #a9612a; --c-peach-bg: #fde8d6;
+  --c-green: #3b7d52; --c-green-bg: #dcf0e2;
+  --c-teal: #1f7a70;  --c-teal-bg: #d3eeea;
+
+  --ok: #2f7a4d;  --ok-bg: #dcf0e2;
+  --warn: #9a6a1c; --warn-bg: #fbecc9;
+  --bad: #b24a3d; --bad-bg: #fadfda;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0f1e21;
+  --bg2: #12262a;
+  --surface: #162a2e;
+  --surface-2: #1b3237;
+  --text: #000000;
+  --muted: #9db8b6;
+  --line: #27434a;
+  --accent: #7cc9c0;
+  --accent-ink: #0d2124;
+  --accent-soft: #1f4348;
+  --accent-text: #8fd6cd;
+  --shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
+
+  --c-sky: #8dbfe8;   --c-sky-bg: #1f3a52;
+  --c-lav: #b3abf0;   --c-lav-bg: #2f2c55;
+  --c-rose: #eba0bf;  --c-rose-bg: #4a2438;
+  --c-peach: #f0b98c; --c-peach-bg: #4a3320;
+  --c-green: #9fd9b3; --c-green-bg: #1f4230;
+  --c-teal: #8fd6cd;  --c-teal-bg: #1c4540;
+
+  --ok: #9fd9b3;  --ok-bg: #1f4230;
+  --warn: #f0cf8c; --warn-bg: #4a3a1c;
+  --bad: #f0a79c; --bad-bg: #4a2622;
+}
